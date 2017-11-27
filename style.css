@@ -22,7 +22,7 @@
 
 /* Add a color to the active/current link */
 .navbar a.active {
-    color: chartreuse;
+    color: #7e967c;
 }    
 
 /* general rules for the body*/
@@ -49,7 +49,7 @@ body{
 }
 
   a{
-    font-family: 'Work Sans', sans-serif;
+    font-family: PT serif;
     color: white;
     text-decoration: none;
 }    
