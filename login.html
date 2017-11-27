@@ -21,8 +21,6 @@
             <div class="col-md-6">
                 <div class="form-group has-danger">
                 <label class="sr-only" for="email">Indtast e-mail</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-at"></i></div>
                 <input type="text" name="email" class="form-control" id="email" placeholder="Indtast din email her" required autofocus>
             </div>
         </div>
@@ -39,10 +37,8 @@
             <div class="col-md-6">
                 <div class="form-group">
                 <label class="sr-only" for="password">Adgangskode</label>
-                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                <div class="input-group-addon" style="width: 2.6rem"><i class="fa fa-key"></i></div>
-                <input type="password" name="password" class="form-control" id="password"
-                                   placeholder="Adgangskode" required>
+                <input type="password" name="password" class="form-control" id="password"placeholder="Adgangskode" required>
+                                    <label class="form-check-label">
             </div>
         </div>
         </div>
@@ -50,34 +46,35 @@
          <div class="col-md-3">
              <div class="form-control-feedback">
              <span class="text-danger align-middle">
-                
+
                         <!-- Put password error message here -->    
                         </span>
                     </div>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6" style="padding-top: .35rem">
-                    <div class="form-check mb-2 mr-sm-2 mb-sm-0">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="remember"
-                                   type="checkbox" >
-                            <span>Husk mig</span>
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="padding-top: 1rem">
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                      <button type="button" onclick="window.location.href='forside.html'">Log ind</button>
-                    <a class="btn btn-link" href="/password/reset">Glemt kodeord?</a>
+                    <a class="btn btn-link" href="forside.html">Glemt kodeord?</a>
                 </div>
             </div>
         </form>
     </div>
         
+
+                                <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6"">
+                    <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="remember" type="checkbox">
+                            <span>Forbliv logget ind</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
  
 
   
@@ -90,9 +87,5 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <script src="bs/js/bootstrap.min.js"></script>
-        
-       
-        
-        
     </body>
 </html>
