@@ -112,7 +112,7 @@ body{
 
 .form-check-label {
     color: #FFFFFF;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 .btn-link {
@@ -120,16 +120,10 @@ body{
     font-size: 15px;
 }
 
-.form {
-    color: #FFFFFF;
-    font-size: 0.6em;
-    padding-top: 12px;
-}
-
 button {
     color: white;
     background-color: #7e967c;
-    padding: 8px 50px 8px 50px;
+    padding: 10px 50px 10px 50px;
     font-style: italic;
     font-size: 20px;
 }
