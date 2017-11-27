@@ -112,7 +112,12 @@ button {
     font-style: italic;
 }
 
-
+.produktknap {
+    color: white;
+    background-color: #7e967c;
+    padding: 3px 8px 3px 8px;
+    font-style: italic;
+}
 
 
 
