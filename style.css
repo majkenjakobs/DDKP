@@ -14,207 +14,146 @@
     color: #f2f2f2;
     text-align: center;
     padding: 7px 8px;
-    text-decoration: none;
-    
-    
+    text-decoration: none; 
 }
-
-
 
 /* Add a color to the active/current link */
 .navbar a.active {
-    
     color: chartreuse;
 }    
 
-
-
+/* general rules for the body*/
 body{
-    
     background-color: #435549;
-    
 }
 
 .forside{
-
-      background-image: url(imgs/forside.png);
+    background-image: url(imgs/forside.png);
       
-      /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
+/* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
   
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
+/* Background image doesn't tile */
+    background-repeat: no-repeat;
   
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
+/* Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+    background-attachment: fixed;
   
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
-      
+/* This is what makes the background image rescale based on the container's size */
+    background-size: cover;    
 }
 
   a{
-      
-
-      
-        
-        font-family: 'Work Sans', sans-serif;
-        color: white;
-        text-decoration: none;
-      
-
-      }
-        
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}    
 
  .top-left {
-        
     position: fixed;
     top: 0;
     left: 0;
-    margin-top: 3em;    
-    
-
-        
-    }   
+    margin-top: 3em;   
+}   
     
     
-    .top-right{
-        
+.top-right{
     position: fixed;
     top: 0;
     right: 0;
     margin-top: 3em;    
-  
-        
-    }
+}
 
     
-    .bottom-left{
-        
+.bottom-left{    
     position: fixed;
     bottom: 0;
     left: 0;
-    margin-bottom: 3em;        
-            
-  
-        
-    }
+    margin-bottom: 3em;          
+}
 
     
-        .bottom-right{
-        
+.bottom-right{   
     position: fixed;
     bottom: 0;
     right: 0;
-    margin-bottom: 3em;        
-  
-        
-    }
+    margin-bottom: 3em;   
+}
 
+/* css for profile page*/
+
+
+
+
+
+
+
+
+
+/* iPhone 5 size*/
 @media screen and (min-width: 319px){
 
+body{
+    font-size: 25px;       
+}
     
-    body{
-        
-        
-        font-size: 25px;
-            
-            
-    }
-    
-     #logo {
-    
+#logo {
         width: 80px;
         height: 80px;
-  
-    }
+}
     
-  
-    .forside {
-    
-    
+.forside {
     background-image: url(imgs/forside-ipad%20tilpasset.png);
-    background-repeat: no-repeat;
-
-    
-    
+    background-repeat: no-repeat; 
 } 
     
  .navbar a{
-        
-        
-        font-size: 10px;
-    }    
-    
+    font-size: 10px;
+    }
+} /* ends the @media*/
 
-}
-
-    
+/* iPhone 6 size*/  
 @media screen and (min-width: 767px){
     
-    body {
-        
-       
-        font-size: 30px;
-        
-    }
-     #logo {
-    
-        width: 150px;
-        height: 150px;
+body {
+    font-size: 30px;     
+}
 
-    
+#logo {
+    width: 150px;
+    height: 150px;   
 }
     
-    .forside {
-    
-    
+.forside {
     background-image: url(imgs/forside-ipad.png);
-    background-repeat: no-repeat;
-       
-    
-    
+    background-repeat: no-repeat; 
 } 
     
-    .navbar a{
-        
-        
-        font-size: 20px;
-    }
-    
+.navbar a{
+    font-size: 20px;
 }
+} /* ends the @media*/
 
+/* iPad size*/
 @media screen and (min-width: 1023px){
     
-    body{
-        
-     
-        font-size: 40px;
-    }
+body{
+    font-size: 40px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
     
-       #logo {
-    
-        width: 200px;
-        height: 200px;
-    }
-    
-    .forside {
-    
-    
+.forside {
     background-image: url(imgs/forside-ipad-pro.png);
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
 } 
     
  .navbar a{
-        
-        
-        font-size: 30px;
-    }    
-    
+    font-size: 30px;
 }
-
+} /* ends the @media*/
 
     
