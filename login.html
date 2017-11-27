@@ -19,9 +19,9 @@
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-                <div class="form-group has-danger">
+                <div class="form-group">
                 <label class="sr-only" for="email">Indtast e-mail</label>
-                <input type="text" name="email" class="form-control" id="email" placeholder="Indtast din email her" required autofocus>
+                <input type="text" name="email" class="form-control" id="email" placeholder="Indtast din email her">
             </div>
         </div>
 
@@ -37,44 +37,33 @@
             <div class="col-md-6">
                 <div class="form-group">
                 <label class="sr-only" for="password">Adgangskode</label>
-                <input type="password" name="password" class="form-control" id="password"placeholder="Adgangskode" required>
-                                    <label class="form-check-label">
+                <input type="password" name="password" class="form-control" id="password" placeholder="Adgangskode" required>
             </div>
         </div>
+        </div>
+
+        <button type="button" onclick="window.location.href='forside.html'">Log ind</button>
+
+        <div class="form"><form method="get">
+                <input type="checkbox" name="vehicle" value="Car">Forbliv logget ind</form>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <a class="btn btn-link" href="forside.html">Glemt kodeord?</a>
+            </div>
         </div>
 
          <div class="col-md-3">
              <div class="form-control-feedback">
-             <span class="text-danger align-middle">
-
-                        <!-- Put password error message here -->    
+             <span class="text-danger align-middle"> 
                         </span>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                     <button type="button" onclick="window.location.href='forside.html'">Log ind</button>
-                    <a class="btn btn-link" href="forside.html">Glemt kodeord?</a>
-                </div>
-            </div>
         </form>
     </div>
-        
-
-                                <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6"">
-                    <div class="form-check mb-2 mr-sm-2 mb-sm-0">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="remember" type="checkbox">
-                            <span>Forbliv logget ind</span>
-                        </label>
-                    </div>
-                </div>
-            </div>
  
 
   
