@@ -100,16 +100,32 @@ body{
 .overskrift {
         text-align: center;
         color: white;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 20px;
+        padding-bottom: 15px;
 }
 
+.login-page {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.form-check-label {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.btn-link {
+    color: #FFFFFF;
+    font-size: 15px;
+}
 
 button {
     color: white;
     background-color: #7e967c;
     padding: 10px 50px 10px 50px;
     font-style: italic;
+    font-size: 20px;
 }
 
 
