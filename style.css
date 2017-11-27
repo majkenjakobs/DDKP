@@ -5,6 +5,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-family: PT serif;
 }
 
 /* Style the links inside the navigation bar */
@@ -15,6 +16,8 @@
     text-align: center;
     padding: 7px 8px;
     text-decoration: none; 
+    font-family: PT serif;
+    font-style: italic;
 }
 
 /* Add a color to the active/current link */
@@ -25,6 +28,8 @@
 /* general rules for the body*/
 body{
     background-color: #435549;
+    font-family: PT serif;
+    font-style: italic;
 }
 
 .forside{
@@ -81,10 +86,24 @@ body{
 }
 
 /* css for profile page*/
+.profil img {
+    width: 50%;
+    height: 50%;
+    margin: 20px auto 20px auto;
+}
+
+.profil {
+        text-align: center;
+        color: white;
+}
 
 
-
-
+button {
+    color: white;
+    background-color: #7e967c;
+    padding: 10px 50px 10px 50px;
+    font-style: italic;
+}
 
 
 
