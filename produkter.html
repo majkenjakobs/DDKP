@@ -12,6 +12,51 @@
 
     <body> 
         
+        <h2>Produkter</h2>
+        <div class="row">
+         
+            <div class="col-6">Øl</div>
+            
+            <div class="col-2">
+
+
+              <button type="button" onclick='sub("demo")'ø>-</button>
+
+            
+                </div>
+            
+            <div class="col-2" id="demo">0</div>
+            
+            <div class="col-2">
+           
+           
+    
+          
+       
+           <button type="button" onclick='add("demo")'ø>+</button>
+                
+                
+            </div>    
+
+        </div>
+
+<script>
+    function add(element) {
+        document.getElementById(element).innerHTML = parseInt(document.getElementById(element).innerHTML) + 1;
+    }
+    
+    function sub(element) {
+    if (parseInt(document.getElementById(element).innerHTML) > 0) {
+        document.getElementById(element).innerHTML = parseInt(document.getElementById(element).innerHTML) - 1;
+        }
+    }
+    
+    
+</script>
+        
+        
+        
+        
         
 <div class="navbar">
     
