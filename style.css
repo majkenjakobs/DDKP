@@ -97,6 +97,13 @@ body{
         color: white;
 }
 
+.overskrift {
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
 
 button {
     color: white;
