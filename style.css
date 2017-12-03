@@ -33,7 +33,7 @@ body{
 }
 
 .forside{
-    background-image: url(imgs/forside.png);
+    background-image: url(imgs/forside.png), url(imgs/Eksempelpåbaggrund.xcf);
       
 /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -150,7 +150,7 @@ body{
 }
 
 .forside {
-    background-image: url(imgs/forside-ipad.png);
+    background-image: url(imgs/forside-ipad.png), url(imgs/backgroundexample-iphone.png);
     background-repeat: no-repeat;
 } 
     
