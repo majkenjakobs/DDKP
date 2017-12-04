@@ -141,6 +141,14 @@ button {
     background-color: #7e967c;
     padding: 3px 8px 3px 8px;
     font-style: italic;
+    margin-bottom: 5px;
+}
+
+.produkt {
+    
+    color: white;
+    
+    
 }
 
 
@@ -148,9 +156,17 @@ button {
 /* iPhone 5 size*/
 @media screen and (min-width: 319px){
 
-body{
+body {
     font-size: 25px;       
 }
+    
+.produkt {
+    
+    font-size: 10px;
+        
+        
+    } 
+     
     
 #logo {
         width: 80px;
@@ -163,20 +179,24 @@ body{
 
 } 
 .Produkter    {
-    background-image: url(imgs/backgroundexample-ipad.png);
     background-repeat: no-repeat;
    /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
   
 /* Background image doesn't tile */
     background-repeat: no-repeat;
+    
   
 /* Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
     background-attachment: fixed;
   
 /* This is what makes the background image rescale based on the container's size */
     background-size: cover; 
+    
+    
     }
+    
+    
  .navbar a{
     font-size: 10px;
     }
@@ -188,6 +208,12 @@ body{
 body {
     font-size: 30px;     
 }
+    
+.produkt {
+        
+        font-size: 20px;
+        
+    }    
 
 #logo {
     width: 150px;
@@ -207,9 +233,15 @@ body {
 /* iPad size*/
 @media screen and (min-width: 1023px){
     
-body{
+body {
     font-size: 40px;
 }
+    
+.produkt {
+    
+    35px;    
+        
+    }    
 
 #logo {
     width: 200px;
