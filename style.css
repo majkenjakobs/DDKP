@@ -33,7 +33,7 @@ body{
 }
 
 .forside{
-    background-image: url(imgs/forside.png), url(imgs/Eksempelpåbaggrund.xcf);
+    background-image: url(imgs/forside.png);
       
 /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -53,6 +53,14 @@ body{
     color: white;
     text-decoration: none;
 }    
+    a:active{
+    color:#E5E4E2;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:white;
+}
 
  .top-left {
     position: fixed;
@@ -152,8 +160,23 @@ body{
 .forside {
     background-image: url(imgs/forside-ipad.png), url(imgs/backgroundexample-iphone.png);
     background-repeat: no-repeat;
+
 } 
-    
+.Produkter    {
+    background-image: url(imgs/backgroundexample-ipad.png);
+    background-repeat: no-repeat;
+   /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+  
+/* Background image doesn't tile */
+    background-repeat: no-repeat;
+  
+/* Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+    background-attachment: fixed;
+  
+/* This is what makes the background image rescale based on the container's size */
+    background-size: cover; 
+    }
  .navbar a{
     font-size: 10px;
     }
@@ -172,7 +195,7 @@ body {
 }
     
 .forside {
-    background-image: url(imgs/forside-ipad.png);
+    background-image: url(imgs/forside-ipad.png), url(imgs/backgroundexample-ipad.png);;
     background-repeat: no-repeat; 
 } 
     
@@ -194,7 +217,7 @@ body{
 }
     
 .forside {
-    background-image: url(imgs/forside-ipad-pro.png);
+    background-image: url(imgs/forside-ipad-pro.png), url(imgs/backgroundexample-ipad.png);
     background-repeat: no-repeat; 
 } 
     
