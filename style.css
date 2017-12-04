@@ -152,7 +152,10 @@ button {
 }
 
 
-
+#counterField {
+    
+    color: goldenrod;
+}
 
 
 /* iPhone 5 size*/
