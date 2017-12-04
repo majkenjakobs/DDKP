@@ -159,13 +159,21 @@ button {
 body {
     font-size: 25px;       
 }
+.profil    {
+    font-size: 75%;
+    }
+.modaltekst{
+    font-size: 15px;
+    text-align: left
+    }
     
 .produkt {
     
-    font-size: 10px;
-        
-        
+    font-size: 10px;   
     } 
+.profiltekst    {
+    font-size: 75%;
+    }
      
     
 #logo {
@@ -178,23 +186,6 @@ body {
     background-repeat: no-repeat;
 
 } 
-.Produkter    {
-    background-repeat: no-repeat;
-   /* Background image is centered vertically and horizontally at all times */
-    background-position: center center;
-  
-/* Background image doesn't tile */
-    background-repeat: no-repeat;
-    
-  
-/* Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
-    background-attachment: fixed;
-  
-/* This is what makes the background image rescale based on the container's size */
-    background-size: cover; 
-    
-    
-    }
 
  .navbar a{
     font-size: 10px;
@@ -207,6 +198,7 @@ body {
 body {
     font-size: 30px;     
 }
+
     
 .produkt {
         
