@@ -157,35 +157,10 @@ button {
 .produkt {
     
     color: white;
-<<<<<<< HEAD
 }
 
 /* CSS - Bestillinger*/
-.ordertable{
-    width: 100%;
-    text-align: center;
-   margin-bottom: 10px;
-}
-.ordertableheader{
-    text-align: center;
-    margin-bottom: 10px;
 
-
-=======
-    margin-top: 10px;
-   
->>>>>>> 804b965f7d07a1a3b8fd3ff3d2b0a1402cbdbc73
-    
-}
-.afsluttet{
-    color: darkgray;
-}
-.ikke-afsluttet{
-    color: white;
-}
-tr{
-    padding: 5px;
-}
 
 
 /* CSS - Bestillinger end*/
