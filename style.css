@@ -136,6 +136,13 @@ button {
     font-style: italic;
     font-size: 20px;
 }
+#infobutton-profile{
+    color: white;
+    padding: 0;
+    border: none;
+    background: none;
+    
+}
 
 
 .Produkter {
