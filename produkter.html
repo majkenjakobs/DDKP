@@ -17,8 +17,9 @@
     </div>
 
         <div class="row">
+            
          
-            <div class="produkt col-4">Tuborg......</div>
+            <div class="produkt col-4">Tuborg</div>
             
             <div class="produkt col-2">20 kr.</div>
             
@@ -44,7 +45,7 @@
         
              <div class="row">
          
-            <div class="produkt col-4">Special Øl......</div>
+            <div class="produkt col-4">Special Øl</div>
                  
                 <div class="produkt col-2">20 kr.</div> 
             
@@ -70,7 +71,7 @@
         
            <div class="row">
          
-            <div class="produkt col-4">Somersby......</div>
+            <div class="produkt col-4">Somersby</div>
                
                <div class="produkt col-2">20 kr.</div>
             
@@ -95,7 +96,7 @@
         
            <div class="row">
          
-            <div class="produkt col-4">Øl Tårn......</div>
+            <div class="produkt col-4">Øl Tårn</div>
                
                <div class="produkt col-2">140 kr.</div>
             
@@ -122,7 +123,7 @@
         
            <div class="row">
          
-            <div class="produkt col-4">Sodavand......</div>
+            <div class="produkt col-4">Sodavand</div>
                
                <div class="produkt col-2">15 kr.</div>
             
@@ -147,7 +148,7 @@
         
            <div class="row">
          
-            <div class="produkt col-4">Burn......</div>
+            <div class="produkt col-4">Burn</div>
                
                <div class="produkt col-2">15 kr.</div>
             
@@ -172,7 +173,7 @@
         
            <div class="row">
          
-            <div class="produkt col-4">Lemonaid......</div>
+            <div class="produkt col-4">Lemonaid</div>
                
                <div class="produkt col-2">15 kr.</div>
             
@@ -197,7 +198,7 @@
         
            <div class="row">
          
-            <div class="produkt col-4">Vand......</div>
+            <div class="produkt col-4">Vand</div>
                
                <div class="produkt col-2">10 kr.</div>
             
@@ -224,36 +225,63 @@
         
            <div class="row">
          
-            <div class="produkt col-4">Vin......</div>
+            <div class="produkt col-4">Vin (Chardonnay)</div>
                
                <div class="produkt col-2">20 kr.</div>
             
             <div class="col-2 text-center">
 
 
-              <button class="produktknap" type="button" onclick='sub("vin")'>-</button>
+              <button class="produktknap" type="button" onclick='sub("vinc")'>-</button>
 
             
                 </div>
             
-            <div class="produkt col-2 text-center" id="vin">0</div>
+            <div class="produkt col-2 text-center" id="vinc">0</div>
             
             <div class="col-2 text-center">
            
-              <button class="produktknap" type="button" onclick='add("vin")'>+</button>
+              <button class="produktknap" type="button" onclick='add("vinc")'>+</button>
                 
                 
-            </div>    
+            </div> 
+               
+
+        </div>
+        
+                  <div class="row">
+         
+            <div class="produkt col-4">Vin (Shiraz)</div>
+               
+               <div class="produkt col-2">20 kr.</div>
+            
+            <div class="col-2 text-center">
+
+
+              <button class="produktknap" type="button" onclick='sub("vins")'>-</button>
+
+            
+                </div>
+            
+            <div class="produkt col-2 text-center" id="vins">0</div>
+            
+            <div class="col-2 text-center">
+           
+              <button class="produktknap" type="button" onclick='add("vins")'>+</button>
+                
+                
+            </div> 
+               
 
         </div>
          
-        <div class="produkt">(Chardonnay & Shiraz)</div>
+        
         
          <br>
         
            <div class="row">
          
-            <div class="produkt col-4">Øko Kaffe......</div>
+            <div class="produkt col-4">Øko Kaffe</div>
                
                <div class="produkt col-2">15 kr.</div>
             
@@ -278,7 +306,7 @@
         
            <div class="row">
          
-            <div class="produkt col-4">Kakao......</div>
+            <div class="produkt col-4">Kakao</div>
                
                <div class="produkt col-2">15 kr.</div>
             
@@ -303,7 +331,7 @@
         
            <div class="row">
          
-            <div class="produkt col-4">The......</div>
+            <div class="produkt col-4">The</div>
                
                <div class="produkt col-2">15 kr.</div>
             
@@ -328,7 +356,7 @@
         
            <div class="row">
          
-            <div class="produkt col-4">Chai-The......</div>
+            <div class="produkt col-4">Chai-The</div>
                
                <div class="produkt col-2">15 kr.</div>
             
@@ -361,6 +389,7 @@
     function add(element) {
         document.getElementById(element).innerHTML = parseInt(document.getElementById(element).innerHTML) + 1;
         document.getElementById("counterField").innerHTML = parseInt(document.getElementById("counterField").innerHTML) + 1;
+        
          
     }
     
@@ -372,10 +401,7 @@
         
     }
     
-
-
-    
-    
+  
 </script>
         
         
@@ -397,11 +423,11 @@
             
             
             
-        <div>  <a href="profil.html" class="col-2">Profil</a>  </div>
-         <div> <a href="produkter.html" class="active col-2">Produkter</a> </div>
-       <div>  <a href="forside.html" class="col-4" ><img id="logo" src="imgs/forside.png"> </a> </div> 
-       <div>   <a href="bestillinger.html" class="col-2">Mine Bestillinger</a> </div>
-        <div>  <a href="kurv.html" class="col-2" ><p id="counterField">0</p><p>Kurv</p></a>     </div>
+        <div>  <a href="profil.html" class="col-2">Profil</a> </div>
+        <div> <a href="produkter.html" class="active col-2">Produkter</a> </div>
+        <div>  <a href="forside.html" class="col-4" ><img id="logo" src="imgs/forside.png"> </a> </div> 
+        <div>   <a href="bestillinger.html" class="col-2">Mine Bestillinger</a> </div>
+        <div>  <a href="kurv.html" class="col-2" ><p id="counterField">0</p><p>Kurv</p></a> </div>
             
              
 
@@ -421,6 +447,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <script src="bs/js/bootstrap.min.js"></script>
         
+       
        
         
         

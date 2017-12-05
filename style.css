@@ -109,7 +109,8 @@ a:hover{
         text-align: center;
         color: white;
         padding-top: 20px;
-        padding-bottom: 15px;
+        margin-bottom: 30px;
+        
 }
 
 .login-page {
@@ -136,20 +137,31 @@ button {
     font-size: 20px;
 }
 
+
+.Produkter {
+    
+    margin: 10px;
+    
+}
+
 .produktknap {
     color: white;
     background-color: #7e967c;
     padding: 3px 8px 3px 8px;
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 60px;
 }
+
+
 
 .produkt {
     
     color: white;
-    
+    margin-top: 10px;
+   
     
 }
+
 
 
 #counterField {
@@ -193,7 +205,7 @@ body {
 } 
 
  .navbar a{
-    font-size: 10px;
+    font-size: 8px;
     }
 } /* ends the @media*/
 
