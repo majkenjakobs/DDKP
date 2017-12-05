@@ -179,8 +179,14 @@ button {
 }
 .bestillings-tabeloversigt{
     color: #7e967c;
+    margin-bottom: 20px;
 }
-
+.modal-title{
+    color: black;
+}
+.modal-body{
+    color: black;
+}
 
 /* CSS - Bestillinger end*/
 
