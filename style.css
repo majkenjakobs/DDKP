@@ -109,7 +109,8 @@ a:hover{
         text-align: center;
         color: white;
         padding-top: 20px;
-        padding-bottom: 15px;
+        margin-bottom: 30px;
+        
 }
 
 .login-page {
@@ -136,17 +137,27 @@ button {
     font-size: 20px;
 }
 
+
+.Produkter {
+    
+    margin: 10px;
+    
+}
+
 .produktknap {
     color: white;
     background-color: #7e967c;
     padding: 3px 8px 3px 8px;
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 60px;
 }
+
+
 
 .produkt {
     
     color: white;
+<<<<<<< HEAD
 }
 
 /* CSS - Bestillinger*/
@@ -160,6 +171,10 @@ button {
     margin-bottom: 10px;
 
 
+=======
+    margin-top: 10px;
+   
+>>>>>>> 804b965f7d07a1a3b8fd3ff3d2b0a1402cbdbc73
     
 }
 .afsluttet{
@@ -174,6 +189,7 @@ tr{
 
 
 /* CSS - Bestillinger end*/
+
 
 
 #counterField {
@@ -217,7 +233,7 @@ body {
 } 
 
  .navbar a{
-    font-size: 10px;
+    font-size: 8px;
     }
 } /* ends the @media*/
 
