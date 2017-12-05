@@ -147,9 +147,33 @@ button {
 .produkt {
     
     color: white;
-    
+}
+
+/* CSS - Bestillinger*/
+.ordertable{
+    width: 100%;
+    text-align: center;
+   margin-bottom: 10px;
+}
+.ordertableheader{
+    text-align: center;
+    margin-bottom: 10px;
+
+
     
 }
+.afsluttet{
+    color: darkgray;
+}
+.ikke-afsluttet{
+    color: white;
+}
+tr{
+    padding: 5px;
+}
+
+
+/* CSS - Bestillinger end*/
 
 
 #counterField {
