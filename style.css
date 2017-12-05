@@ -161,6 +161,12 @@ button {
 }
 
 /* CSS - Bestillinger*/
+.afsluttet{
+    color: darkgray;
+}
+.ikke-afsluttet{
+    color: white;
+}
 
 
 
@@ -207,6 +213,10 @@ body {
     background-repeat: no-repeat;
 
 } 
+    
+.bestillings-datostatuspris{
+        font-size: 14px;
+    }
 
  .navbar a{
     font-size: 8px;
