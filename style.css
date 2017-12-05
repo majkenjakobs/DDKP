@@ -161,7 +161,18 @@ button {
 }
 
 /* CSS - Bestillinger*/
-
+.afsluttet{
+    color: darkgray;
+}
+.ikke-afsluttet{
+    color: white;
+}
+.Bestillingslinje{
+    margin-bottom: 5px;
+}
+.bestillings-tabeloversigt{
+    color: #7e967c;
+}
 
 
 /* CSS - Bestillinger end*/
@@ -207,6 +218,14 @@ body {
     background-repeat: no-repeat;
 
 } 
+    
+.bestillings-tabeloversigt{
+    font-size: 17px;
+    }
+    
+.bestillings-datostatuspris{
+        font-size: 14px;
+    }
 
  .navbar a{
     font-size: 8px;
