@@ -53,6 +53,14 @@ body{
     color: white;
     text-decoration: none;
 }    
+    a:active{
+    color:#E5E4E2;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:white;
+}
 
  .top-left {
     position: fixed;
@@ -101,7 +109,8 @@ body{
         text-align: center;
         color: white;
         padding-top: 20px;
-        padding-bottom: 15px;
+        margin-bottom: 30px;
+        
 }
 
 .login-page {
@@ -127,22 +136,97 @@ button {
     font-style: italic;
     font-size: 20px;
 }
+#infobutton-profile{
+    color: white;
+    padding: 0;
+    border: none;
+    background: none;
+    
+}
+
+
+.Produkter {
+    
+    margin: 10px;
+    
+}
 
 .produktknap {
     color: white;
     background-color: #7e967c;
     padding: 3px 8px 3px 8px;
     font-style: italic;
+    margin-bottom: 60px;
 }
 
+
+
+.produkt {
+    
+    color: white;
+    margin-top: 15px;
+}
+
+/* CSS - Bestillinger*/
+.afsluttet{
+    color: darkgray;
+}
+.ikke-afsluttet{
+    color: white;
+}
+.Bestillingslinje{
+    margin-bottom: 5px;
+}
+.bestillings-tabeloversigt{
+    color: #7e967c;
+    margin-bottom: 20px;
+}
+.modal-title{
+    color: black;
+}
+.modal-body{
+    color: black;
+}
+#kvitteringsknap{
+    color: inherit;
+    padding: 0;
+    border: none;
+    background: none;
+    
+}
+
+/* CSS - Bestillinger end*/
+
+
+
+#counterField {
+    
+    color: goldenrod;
+}
 
 
 /* iPhone 5 size*/
 @media screen and (min-width: 319px){
 
-body{
+body {
     font-size: 25px;       
 }
+.profil    {
+    font-size: 75%;
+    }
+.modaltekst{
+    font-size: 15px;
+    text-align: left
+    }
+    
+.produkt {
+    
+    font-size: 10px;   
+    } 
+.profiltekst    {
+    font-size: 75%;
+    }
+     
     
 #logo {
         width: 80px;
@@ -150,12 +234,21 @@ body{
 }
 
 .forside {
-    background-image: url(imgs/forside-ipad.png);
+    background-image: url(imgs/forside-ipad.png), url(imgs/backgroundexample-iphone.png);
     background-repeat: no-repeat;
+
 } 
     
+.bestillings-tabeloversigt{
+    font-size: 17px;
+    }
+    
+.bestillings-datostatuspris{
+        font-size: 14px;
+    }
+
  .navbar a{
-    font-size: 10px;
+    font-size: 8px;
     }
 } /* ends the @media*/
 
@@ -166,13 +259,20 @@ body {
     font-size: 30px;     
 }
 
+    
+.produkt {
+        
+        font-size: 20px;
+        
+    }    
+
 #logo {
     width: 150px;
     height: 150px;   
 }
     
 .forside {
-    background-image: url(imgs/forside-ipad.png);
+    background-image: url(imgs/forside-ipad.png), url(imgs/backgroundexample-ipad.png);;
     background-repeat: no-repeat; 
 } 
     
@@ -184,9 +284,15 @@ body {
 /* iPad size*/
 @media screen and (min-width: 1023px){
     
-body{
+body {
     font-size: 40px;
 }
+    
+.produkt {
+    
+    35px;    
+        
+    }    
 
 #logo {
     width: 200px;
@@ -194,7 +300,7 @@ body{
 }
     
 .forside {
-    background-image: url(imgs/forside-ipad-pro.png);
+    background-image: url(imgs/forside-ipad-pro.png), url(imgs/backgroundexample-ipad.png);
     background-repeat: no-repeat; 
 } 
     

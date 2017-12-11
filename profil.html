@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bs/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
         
     <body> 
@@ -21,15 +22,77 @@
           <h1>Casper Jensen</h1>
           <h2>casper.jensen@ucc.dk</h2>
           <p>Student ID: 12345678</p>
+        </div>
+<div class="row profiltekst">
+    <div class="col-2"></div>
+    <div class="col-3"> 
+        <p>Klippekort</p>
+    </div> 
+    <div class="col-2"></div>
+    <div class="col-3 text-center">
+    <p>14/20</p>
+</div>
+    <div class="col-2"></div>
+          </div>
 
-          <button type="button" onclick="window.location.href='login.html'">Log ud</button>
+<div class="row profiltekst">
+    <div class="col-2"></div>
+    <div class="col-3"> 
+        <p>Betalingskort</p>
+    </div> 
+    <div class="col-2"></div>
+    <div class="col-3 text-center">
+    <p>XX12</p>
+</div>          
+<div class="col-2"></div>    
+</div>
 
+
+ 
+<div class="row justify-content-center">
+<div class="col-12 text-center">
+  <!-- Trigger the modal with a button -->
+     <button id="infobutton-profile"><i class="material-icons" data-toggle="modal" data-target="#infoModal">info</i></button>
+    </div>
+  <!-- Modal -->
+  <div class="modal fade" id="infoModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Information</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="modaltekst">Dette er StudieCaféen Humlens App. <br><br>I denne app er det muligt at bestille forskellige produkter i baren, uden at man skal stå unødvendigt i kø. I går ind i "Produkter" og vælger hvad i gerne vil bestille fra vores sortiment. Derefter er jeres valgte produkter røget ned i "Kurven" og i kan nu betale for jeres forskellige valg af drikkevarer m.m. <br><br>Når bestillingen er modtaget i baren vil i få en notifikation om at vores barpersonale er i gang med at behandle jeres ordre, derefter vil i modtage endnu en notifikation når jeres vare/varer er klar til afhentning. <br><br> OBS! Hver forberedt på at vise et gyldigt ID og Studiekort! 
+            <br> <br> Med venlig hilsen Studiecaféen Humlen</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+        </div>
       </div>
+    </div>
+  </div>
+</div>   
+    
 
-      <div class="navbar">
+        
+
+<div class="row">
+<div class="col-12 text-center">
+          <button type="button" onclick="window.location.href='login.html'">Log ud</button>
+</div>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+      <div class="navbar fixed-bottom">
         <a href="profil.html" class="active col-2">Profil</a>
         <a href="produkter.html" class="col-2">Produkter</a>
-        <a href="forside.html" class="col-4" ><img id="logo" src="imgs/forside.png"> </a>   
+        <a href="forside.html" class="col-4"><img id="logo" src="imgs/forside.png"> </a>   
         <a href="bestillinger.html" class="col-2">Mine Bestillinger</a>
         <a href="kurv.html" class="col-2">Kurv</a>
       </div>

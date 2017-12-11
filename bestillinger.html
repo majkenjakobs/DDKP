@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bs/css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
 
     <body> 
@@ -15,8 +16,192 @@
     <div class="overskrift">
         <h2>Bestillinger</h2>
     </div>
+        
+<!-- Oversigt over bestillinger -->
+<div class="bestillings-tabeloversigt">
+<div class="row justify-content-center">
+    <div class="col-3 text-center">
+    Dato 
+    </div>  
+    <div class="col-5 text-center">
+    Status
+    </div>
+    <div class="col-3">
+    Pris
+    </div>
+</div>
+</div>
 
-      <div class="navbar">
+<div class="bestillings-datostatuspris">
+            <!-- ordre 1 -->
+            <div class="row justify-content-center ikke-afsluttet Bestillingslinje">
+                <div class="col-3 text-center">
+                27/10-17    
+                </div>  
+                <div class="col-5 text-center">
+                Under behandling
+                </div>
+                <div class="col-1 text-center">
+                140,-
+                </div>
+                     <div class="col-2 text-center">
+                    <button id="kvitteringsknap"><i class="material-icons" data-toggle="modal" data-target="#order1">receipt</i></button>
+                  <div class="modal fade" id="order1" role="dialog">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">27/10-17</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p class="modaltekst">Kvittering</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- ordre 2 -->
+            <div class="row justify-content-center ikke-afsluttet Bestillingslinje">
+                <div class="col-3 text-center">
+                27/10-17   
+                </div>  
+                <div class="col-5 text-center">
+                Klar til afhentning
+                </div>
+                <div class="col-1 text-center">
+                100,-
+                </div>
+                    <div class="col-2 text-center">
+                        <button id="kvitteringsknap"><i class="material-icons" data-toggle="modal" data-target="#order2">receipt</i></button>
+                  <div class="modal fade" id="order2" role="dialog">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">order 2</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p class="modaltekst">Kvittering</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- ordre 3 -->
+            <div class="row justify-content-center afsluttet Bestillingslinje">
+                <div class="col-3 text-center">
+                13/10-17 
+                </div>  
+                <div class="col-5 text-center">
+                Afsluttet
+                </div>
+                <div class="col-1 text-center">
+                280,-
+                </div>
+                  <div class="col-2 text-center">
+                      <button id="kvitteringsknap"><i class="material-icons" data-toggle="modal" data-target="#order3">receipt</i></button>
+                  <div class="modal fade" id="order3" role="dialog">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">order 3</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p class="modaltekst">Kvittering</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+          
+            </div>
+
+            <!-- ordre 4 - kaffe -->
+            <div class="row justify-content-center afsluttet Bestillingslinje">
+                <div class="col-3 text-center">
+                11/10-17   
+                </div>  
+                <div class="col-5 text-center">
+                Afsluttet
+                </div>
+                <div class="col-1 text-center">
+                75,-
+                </div>
+                 <div class="col-2 text-center">
+                     <button id="kvitteringsknap"><i class="material-icons" data-toggle="modal" data-target="#order4">receipt</i></button>
+                  <div class="modal fade" id="order4" role="dialog">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">order 4</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p class="modaltekst">Kvittering</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- ordre 5 -->
+            <div class="row justify-content-center afsluttet Bestillingslinje">
+                <div class="col-3 text-center">
+                06/10-17   
+                </div>  
+                <div class="col-5 text-center">
+                Afsluttet
+                </div>
+                <div class="col-1 text-center">
+                140,-
+                </div>
+                <div class="col-2 text-center">
+                    <button id="kvitteringsknap"><i class="material-icons" data-toggle="modal" data-target="#order5">receipt</i></button>
+                  <div class="modal fade" id="order5" role="dialog">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">order 5</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p class="modaltekst">Kvittering</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+
+</div>
+
+
+        
+        
+        
+        
+      <div class="navbar fixed-bottom">
         <a href="profil.html" class="col-2">Profil</a>
         <a href="produkter.html" class="col-2">Produkter</a>
         <a href="forside.html" class="col-4" ><img id="logo" src="imgs/forside.png"> </a>   
