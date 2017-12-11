@@ -204,6 +204,15 @@ button {
     border-collapse:collapse;
     width: 100%;
     border: none;
+    text-align: left;
+    font-size: 20px;
+}
+.samletkvitpris{
+    text-align: right;
+}
+.ialtkvitpris{
+    font-weight: bold;
+    text-align: right;
 }
 
 /* CSS - Bestillinger end*/
