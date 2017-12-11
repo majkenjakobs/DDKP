@@ -194,6 +194,11 @@ button {
     background: none;
     
 }
+.kvittering{
+    border-collapse:collapse;
+    width: 100%;
+    border: none;
+}
 
 /* CSS - Bestillinger end*/
 
@@ -234,7 +239,7 @@ body {
 }
 
 .forside {
-    background-image: url(imgs/forside-ipad.png), url(imgs/backgroundexample-iphone.png);
+    background-image: url(imgs/forside-ipad.png), url(imgs/Humlenstemningsbaggrund-iphone.png);
     background-repeat: no-repeat;
 
 } 
