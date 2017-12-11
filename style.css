@@ -244,6 +244,10 @@ button {
     color: #E5E4E2;
 }
 
+.material-icons {
+    font-size: 40px;    
+    }
+
 
 /* iPhone 5 size*/
 @media screen and (min-width: 319px){
@@ -292,6 +296,8 @@ button {
         
     }    
     }
+
+
 /* ends the @media*/
 
 /* iPhone 6 size*/  
@@ -331,9 +337,7 @@ body {
         
     } 
 
-.material-icons {
-    font-size: 50px;    
-    }
+
 .produkt {
     
     font-size: 30px;
