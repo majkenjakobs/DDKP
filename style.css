@@ -401,9 +401,13 @@ h2 {
 h3{
     font-size: 60px;        
     }
-       
+    .modaltekst{
+        font-size:  30px;
+    }       
    
-    
+.btn{ 
+    font-size: 20px;
+    }
 }   /* ends the @media*/
 
     
