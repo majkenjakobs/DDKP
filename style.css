@@ -188,6 +188,11 @@ button {
      
 }
 
+.profiltekst    {
+    text-align: left;
+    color: white;
+    }
+
 /* CSS - Bestillinger*/
 .afsluttet{
     color: darkgray;
@@ -243,7 +248,7 @@ button {
 /* iPhone 5 size*/
 @media screen and (min-width: 319px){
 
-    }
+    
 .modaltekst{
     font-size: 15px;
     text-align: left
@@ -253,10 +258,7 @@ button {
     
     font-size: 15px;   
     } 
-.profiltekst    {
-    text-align: left;
-    color: white;
-    }
+
      
     
 #logo {
@@ -289,8 +291,8 @@ button {
         height: 40px;
         
     }    
-    
-} /* ends the @media*/
+    }
+/* ends the @media*/
 
 /* iPhone 6 size*/  
 @media screen and (min-width: 767px){
@@ -304,7 +306,9 @@ body {
         
         font-size: 20px;
         
-    }    
+    }
+    
+ 
 
 #logo {
     width: 150px;
@@ -347,12 +351,11 @@ h2 {
     font-size: 70px;
     margin-bottom: 50px;
     }    
-    h3{
+h3{
         60px;
     }
-.profiltekst  {
-        font-size: 90px;
-    }
+
+
     
 } /* ends the @media*/
 
@@ -366,7 +369,9 @@ body {
 .produkt {
     
     font-size: 35px;        
-    }    
+    } 
+    
+   
 
 #logo {
     width: 200px;
@@ -396,8 +401,9 @@ h2 {
 h3{
     font-size: 60px;        
     }
+       
    
     
-    /* ends the @media*/
+}   /* ends the @media*/
 
     
