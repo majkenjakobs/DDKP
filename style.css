@@ -29,8 +29,7 @@
 /* general rules for the body*/
 body{
     background-color: #435549;
-    font-family: PT serif;
-    font-style: italic;
+    font-family: Avenir;
 }
 
 .forside{
@@ -50,9 +49,10 @@ body{
 }
 
   a{
-    font-family: PT serif;
+    font-family: 'Pattaya', sans-serif;
     color: white;
     text-decoration: none;
+    font-weight: 80%;
 }    
     a:active{
     color:#E5E4E2;
@@ -111,6 +111,9 @@ a:hover{
         color: white;
         padding-top: 20px;
         margin-bottom: 30px;
+        font-family: 'Pattaya', sans-serif;
+        text-decoration: none;
+        letter-spacing: 2px;
         
 }
 
@@ -134,8 +137,10 @@ button {
     color: white;
     background-color: #7e967c;
     padding: 10px 50px 10px 50px;
-    font-style: italic;
     font-size: 20px;
+    font-family: 'Pattaya', sans-serif; 
+    letter-spacing: 3px;
+    
 }
 #infobutton-profile{
     color: white;
