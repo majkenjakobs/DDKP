@@ -174,8 +174,10 @@ button {
 
 .goback{
     
-    padding: 4px 4px 4px 4px;
-    justify-content: center;
+  color: white;
+ display: inline-block;
+ float:left;    
+     
 }
 
 /* CSS - Bestillinger*/
@@ -320,12 +322,20 @@ body {
         height: 60px;
         
     } 
-    
+
+.material-icons {
+    font-size: 50px;    
+    }
 .produkt {
     
-
-    margin-top: 15px;
-}    
+    font-size: 30px;
+    margin-top: 10px;
+} 
+    
+h2 {
+    font-size: 70px;
+    margin-bottom: 50px;
+    }    
     
 } /* ends the @media*/
 
@@ -338,8 +348,7 @@ body {
     
 .produkt {
     
-    35px;    
-        
+    font-size: 35px;        
     }    
 
 #logo {
@@ -355,6 +364,14 @@ body {
  .navbar a{
     font-size: 30px;
 }
-} /* ends the @media*/
+    
+h2 {
+    font-size: 80px;
+    
+    }
+    
+   
+    
+    /* ends the @media*/
 
     
