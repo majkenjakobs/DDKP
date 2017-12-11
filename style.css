@@ -8,6 +8,7 @@
     font-family: PT serif;
 }
 
+
 /* Style the links inside the navigation bar */
 .navbar a {
     float: left;
@@ -206,7 +207,7 @@ button {
 
 #counterField {
     
-    color: goldenrod;
+    color: #E5E4E2;
 }
 
 
@@ -226,7 +227,7 @@ body {
     
 .produkt {
     
-    font-size: 10px;   
+    font-size: 15px;   
     } 
 .profiltekst    {
     font-size: 75%;
@@ -253,7 +254,7 @@ body {
     }
 
  .navbar a{
-    font-size: 8px;
+    font-size: 10px;
     }
 } /* ends the @media*/
 
