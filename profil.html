@@ -24,28 +24,69 @@
           <h2>casper.jensen@ucc.dk</h2>
           <p>Student ID: 12345678</p>
         </div>
-<div class="row profiltekst">
-    <div class="col-2"></div>
-    <div class="col-3"> 
-        <p>Klippekort</p>
+<div class="row justify-content-center profiltekst">
+    <div class="col-6"> 
+        <p>Resterende klip:</p>
     </div> 
-    <div class="col-2"></div>
-    <div class="col-3 text-center">
-    <p>14/20</p>
+    <div class="col-2">
+    <p class="profil">12</p>
+    </div>
+    <div class="col-2 text-center">
+                    <button id="kvitteringsknap"><i class="material-icons" data-toggle="modal" data-target="#order5">receipt</i></button>
+                  <div class="modal fade" id="order5" role="dialog">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Kvittering</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p class="modaltekst">06/10-17: Afsluttet</p>
+                                <table class="kvittering">
+                                      <tr>
+                                        <td>Somersby</td>
+                                        <td>x 3</td>
+                                        <td class="samletkvitpris">60,-</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Tuborg</td>
+                                        <td>x 4</td>
+                                        <td class="samletkvitpris">80,-</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="samletkvitpris"></td>
+                                      </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="ialtkvitpris">I alt: 140,-</td>
+                                    </tr>
+                                    <p></p>
+                                    <tr>
+                                        <td>Betalingsmetode:</td>
+                                        <td></td>
+                                        <td class="samletkvitpris">Klippekort (7 klip)</td>
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Luk</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>    
 </div>
-    <div class="col-2"></div>
-          </div>
+          
 
-<div class="row profiltekst">
-    <div class="col-2"></div>
-    <div class="col-3"> 
-        <p>Betalingskort</p>
+<div class="row profiltekst justify-content-center">
+    <div class="col-6"> 
+        <p class=>Betalingskort</p>
     </div> 
-    <div class="col-2"></div>
-    <div class="col-3 text-center">
-    <p>XX12</p>
-</div>          
-<div class="col-2"></div>    
+    <div class="col-4">
+    <p class="profil">**12</p>
+    </div>  
 </div>
 
 

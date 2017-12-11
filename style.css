@@ -251,7 +251,8 @@ body {
     font-size: 15px;   
     } 
 .profiltekst    {
-    font-size: 75%;
+    text-align: left;
+    color: white;
     }
      
     
