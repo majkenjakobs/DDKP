@@ -155,17 +155,22 @@ button {
 .produktknap {
     color: white;
     background-color: #7e967c;
-    padding: 3px 8px 3px 8px;
+    padding: 4px 8px 4px 8px;
     font-style: italic;
     margin-bottom: 60px;
 }
 
 
-
 .produkt {
     
     color: white;
-    margin-top: 15px;
+    margin-top: 10px;
+}
+
+.goback{
+    
+    padding: 4px 4px 4px 4px;
+    justify-content: center;
 }
 
 /* CSS - Bestillinger*/
@@ -256,6 +261,15 @@ body {
  .navbar a{
     font-size: 10px;
     }
+    
+    
+.produktknap {
+        
+        width: 30px;
+        height: 40px;
+        
+    }    
+    
 } /* ends the @media*/
 
 /* iPhone 6 size*/  
@@ -285,6 +299,20 @@ body {
 .navbar a{
     font-size: 20px;
 }
+    
+.produktknap {
+        
+        width: 45px;
+        height: 60px;
+        
+    } 
+    
+.produkt {
+    
+
+    margin-top: 15px;
+}    
+    
 } /* ends the @media*/
 
 /* iPad size*/
