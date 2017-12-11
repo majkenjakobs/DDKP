@@ -106,6 +106,7 @@ a:hover{
         color: white;
 }
 
+
 .overskrift {
         text-align: center;
         color: white;
@@ -121,6 +122,13 @@ a:hover{
     padding-right: 30px;
     padding-left: 30px;
     text-align: center;
+}
+.add-klip{
+    padding: 1px 1px 1px 1px;
+    font-size: 10px;
+    font-family: Avenir;
+    display: inline-block;
+    
 }
 
 .form-check-label {
@@ -236,7 +244,7 @@ button {
 @media screen and (min-width: 319px){
 
 body {
-    font-size: 25px;       
+    font-size: 20px;       
 }
 .profil    {
     font-size: 75%;
