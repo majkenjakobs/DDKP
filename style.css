@@ -95,7 +95,7 @@ a:hover{
 }
 
 /* css for profile page*/
-.profil img {
+.profilbillede {
     width: 50%;
     height: 50%;
     margin: 20px auto 20px auto;
@@ -243,11 +243,6 @@ button {
 /* iPhone 5 size*/
 @media screen and (min-width: 319px){
 
-body {
-    font-size: 20px;       
-}
-.profil    {
-    font-size: 75%;
     }
 .modaltekst{
     font-size: 15px;
@@ -341,10 +336,23 @@ body {
     margin-top: 10px;
 } 
     
+.bestillings-tabeloversigt{
+    font-size: 40px;
+    }
+    
+.bestillings-datostatuspris{
+    font-size: 30px;}
+    
 h2 {
     font-size: 70px;
     margin-bottom: 50px;
     }    
+    h3{
+        60px;
+    }
+.profiltekst  {
+        font-size: 90px;
+    }
     
 } /* ends the @media*/
 
@@ -370,6 +378,13 @@ body {
     background-repeat: no-repeat; 
 } 
     
+.bestillings-tabeloversigt{
+    font-size: 40px;
+    }
+    
+.Bestillingslinje{
+        font-size: 35px;
+    }    
  .navbar a{
     font-size: 30px;
 }
@@ -378,7 +393,9 @@ h2 {
     font-size: 80px;
     
     }
-    
+h3{
+    font-size: 60px;        
+    }
    
     
     /* ends the @media*/
