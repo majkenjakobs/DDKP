@@ -179,8 +179,21 @@ button {
 }
 .bestillings-tabeloversigt{
     color: #7e967c;
+    margin-bottom: 20px;
 }
-
+.modal-title{
+    color: black;
+}
+.modal-body{
+    color: black;
+}
+#kvitteringsknap{
+    color: inherit;
+    padding: 0;
+    border: none;
+    background: none;
+    
+}
 
 /* CSS - Bestillinger end*/
 
