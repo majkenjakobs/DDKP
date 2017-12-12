@@ -50,9 +50,8 @@ body{
 
   a{
     font-family: 'Norican', cursive;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
-    font-weight: 80%;
 }    
     a:active{
     color:#E5E4E2;
@@ -148,14 +147,18 @@ button {
     padding: 10px 50px 10px 50px;
     font-size: 20px;
     font-family: 'Norican', cursive; 
-    letter-spacing: 3px;
-    
+    letter-spacing: 0px;
+    border: 1px;
+    border-color: #ffffff;
 }
+
+
 #infobutton-profile{
     color: white;
     padding: 0;
     border: none;
     background: none;
+    margin-top: 8px;
     
 }
 
@@ -196,7 +199,7 @@ button {
 
 /* CSS - Bestillinger*/
 .afsluttet{
-    color: darkgray;
+    color: #929392;
 }
 .ikke-afsluttet{
     color: white;
@@ -269,10 +272,15 @@ button {
 }
 
 .forside {
-    background-image: url(imgs/forside-ipad.png), url(imgs/Humlenstemningsbaggrund-iphone.png);
+    background-image: url(imgs/forside-iphone.png), url(imgs/Humlenstemningsbaggrund-iphone.png);
     background-repeat: no-repeat;
+    
 
 } 
+
+a{
+    font-size: 22px;
+    }
     
 .bestillings-tabeloversigt{
     font-size: 17px;
@@ -308,8 +316,10 @@ body {
     
 .produkt {
         
-        font-size: 20px;
-        
+        font-size: 20px;    
+    }
+    a {
+        font-size: 60px;
     }
     
  
@@ -356,6 +366,9 @@ h2 {
 h3{
         60px;
     }
+    a{
+        font-size: 26px;
+    }
 
 
     
@@ -373,7 +386,7 @@ body {
     font-size: 35px;        
     } 
     
-   
+  
 
 #logo {
     width: 200px;
@@ -384,7 +397,12 @@ body {
     background-image: url(imgs/forside-ipad-pro.png), url(imgs/backgroundexample-ipad.png);
     background-repeat: no-repeat; 
 } 
+
+a {
+    font-size: 81px;
+    }
     
+
 .bestillings-tabeloversigt{
     font-size: 40px;
     }
