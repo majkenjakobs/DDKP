@@ -181,7 +181,7 @@ button {
     margin-top: 10px;
 }
 
-.goback{
+.material-icons{
     
   color: white;
  display: inline-block;
@@ -294,7 +294,14 @@ button {
         
     }    
     }
+.material-icons {
+        
+    width: 50px;
+    height: 50px;
+        
+    }
 
+.material-icons.md-48 { font-size: 35px; }  
 
 /* ends the @media*/
 
@@ -357,7 +364,15 @@ h3{
         60px;
     }
 
-
+.material-icons {
+    
+    width: 100px;
+    height: 100px;
+    
+    }
+    
+.material-icons.md-48 { font-size: 60px; }    
+       
     
 } /* ends the @media*/
 
@@ -404,7 +419,15 @@ h3{
     font-size: 60px;        
     }
        
-   
+.material-icons {
+        
+    width: 110px;
+    height: 110px;
+        
+    }
+    
+.material-icons.md-48 { font-size: 80px; }    
+        
     
 }   /* ends the @media*/
 
