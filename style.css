@@ -133,7 +133,7 @@ a:hover{
 
 .form-check-label {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 80px;
 }
 
 .btn-link {
@@ -385,6 +385,14 @@ h4 {
     
 }
 
+#login{
+        
+    font-size: 10px;
+    color: white;
+    
+        
+    }
+
 /* ends the @media*/
 
 /* iPhone 6 size*/
@@ -429,7 +437,7 @@ h4 {
 
 .material-icons.md-36 { 
     
-    font-size: 25px; } 
+    font-size: 35px; } 
     
 .logud {
     
@@ -522,8 +530,43 @@ h4 {
 .material-icons.md-48 { font-size: 50px; }    
        
     
+
+
+
+.material-icons.md-24 { font-size: 30px; }    
+       
+    
 }
 
+    
+#login{
+        
+    font-size: 20px;    
+        
+    } 
+    
+    
+.form-control {
+    
+    font-size: 20px;
+   
+}
+    
+.btn-link {
+        
+    font-size: 20px;
+        
+    } 
+    
+    
+.btn-default {
+    
+    font-size: 25px;
+    width: 95px;
+    height: 45px;
+    margin-bottom: 20px;
+        
+    } 
 
 
 /* iPad size*/  
@@ -603,28 +646,28 @@ h4 {
 .top-left {
     
     margin-top: 3em;
-    font-size: 35px;
+    font-size: 45px;
 }   
     
     
 .top-right{
     
     margin-top: 3em;
-    font-size: 35px;
+    font-size: 45px;
 }
 
     
 .bottom-left{    
    
     margin-bottom: 3em;
-    font-size: 35px;
+    font-size: 45px;
 }
 
     
 .bottom-right{   
     
     margin-bottom: 3em;
-    font-size: 35px;
+    font-size: 45px;
 }    
  
     
@@ -657,6 +700,37 @@ h4 {
     
 .material-icons.md-48 { font-size: 60px; } 
     
+.material-icons.md-24 { font-size: 45px; } 
+    
+#login{
+        
+    font-size: 20px;    
+        
+    } 
+    
+    
+.form-control {
+    
+    font-size: 30px;
+   
+}
+    
+.btn-link {
+        
+    font-size: 30px;
+        
+    } 
+    
+    
+.btn-default {
+    
+    font-size: 35px;
+    width: 155px;
+    height: 75px;
+    margin-bottom: 20px;
+        
+    }    
+    
    
        
     
@@ -671,7 +745,7 @@ body {
     
 h2 {
     font-size: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top: 10px;
     }    
 h3{
@@ -735,28 +809,28 @@ h3{
 .top-left {
     
     margin-top: 3em;
-    font-size: 35px;
+    font-size: 60px;
 }   
     
     
 .top-right{
     
     margin-top: 3em;
-    font-size: 35px;
+    font-size: 60px;
 }
 
     
 .bottom-left{    
    
     margin-bottom: 3em;
-    font-size: 35px;
+    font-size: 60px;
 }
 
     
 .bottom-right{   
     
     margin-bottom: 3em;
-    font-size: 35px;
+    font-size: 60px;
 }    
  
     
@@ -782,13 +856,47 @@ h3{
        
 .material-icons {
         
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
         
     }
     
-.material-icons.md-48 { font-size: 85px; }    
+.material-icons.md-48 { font-size: 85px; } 
+    
+    
+.material-icons.md-24 { font-size: 55px; }
+    
+    
+#login{
         
+    font-size: 25px;
+    
+        
+    }  
+    
+    
+.form-control {
+    
+    font-size: 40px;
+    height: 95px;
+   
+}
+    
+.btn-link {
+        
+    font-size: 30px;
+        
+    } 
+    
+    
+.btn-default {
+    
+    font-size: 35px;
+    width: 155px;
+    height: 95px;
+    margin-bottom: 20px;
+        
+    }    
     
 }   /* ends the @media*/
 
