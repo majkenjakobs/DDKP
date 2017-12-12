@@ -158,7 +158,7 @@ button {
     padding: 0;
     border: none;
     background: none;
-    margin-top: 8px;
+    
     
 }
 
@@ -253,11 +253,33 @@ button {
 /* iPhone 5 size*/
 @media screen and (min-width: 319px){
 
+body {
+    font-size: 20px;     
+} 
+    
+h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    }    
+h3{
+        40px;
+    } 
+    
+.profiltekst    {
+    font-size: 15px;
+    }    
     
 .modaltekst{
-    font-size: 15px;
+    font-size: 12px;
     text-align: left
     }
+    
+    
+#infobutton-profile{
+    margin-top: 0;
+    
+    }
+      
     
 .produkt {
     
@@ -277,10 +299,36 @@ button {
     
 
 } 
+    
+    
+.top-left {
+    
+    margin-top: 3em;
+    font-size: 30px;
+}   
+    
+    
+.top-right{
+    
+    margin-top: 3em;
+    font-size: 30px;
+}
 
-a{
-    font-size: 22px;
-    }
+    
+.bottom-left{    
+   
+    margin-bottom: 3em;
+    font-size: 30px;
+}
+
+    
+.bottom-right{   
+    
+    margin-bottom: 3em;
+    font-size: 30px;
+}
+    
+
     
 .bestillings-tabeloversigt{
     font-size: 17px;
@@ -301,7 +349,7 @@ a{
         height: 40px;
         
     }    
-    }
+
 .material-icons {
         
     width: 50px;
@@ -310,24 +358,167 @@ a{
     }
 
 .material-icons.md-48 { font-size: 35px; }  
+    
+}
 
 /* ends the @media*/
 
-/* iPhone 6 size*/  
+/* iPhone 6 size*/
+
+@media screen and (min-width: 374px){
+    
+body {
+    font-size: 30px;     
+}
+    
+h2 {
+    font-size: 45px;
+    margin-bottom: 58px;
+    }    
+h3{
+        50px;
+    }    
+    
+    
+.profiltekst    {
+    font-size: 20px;
+    }
+    
+    
+.modaltekst{
+    font-size: 15px;
+    text-align: left;
+    }   
+    
+#infobutton-profile{
+    margin-top: 0;
+    
+    }    
+
+    
+.produkt {
+    
+    font-size: 15px;
+    margin-top: 10px;
+} 
+   
+    
+
+#logo {
+    width: 80px;
+    height: 80px;   
+}
+    
+.forside {
+    background-image: url(imgs/forside-iphone.png), url(imgs/Humlenstemningsbaggrund-iphone.png);;
+    background-repeat: no-repeat; 
+} 
+    
+.top-left {
+    
+    margin-top: 3em;
+    font-size: 35px;
+}   
+    
+    
+.top-right{
+    
+    margin-top: 3em;
+    font-size: 35px;
+}
+
+    
+.bottom-left{    
+   
+    margin-bottom: 3em;
+    font-size: 35px;
+}
+
+    
+.bottom-right{   
+    
+    margin-bottom: 3em;
+    font-size: 35px;
+}    
+ 
+    
+.bestillings-tabeloversigt{
+    font-size: 20px;
+    }
+    
+.bestillings-datostatuspris{
+        font-size: 17px;
+    }
+    
+      
+.navbar a{
+    font-size: 12px;
+}
+    
+    
+    
+    
+.produktknap {
+        
+        width: 35px;
+        height: 45px;
+        
+    } 
+    
+   
+
+.goback {
+    
+    width: 55px;
+    height: 55px;
+    
+    
+    }
+    
+.material-icons.md-48 { font-size: 50px; }    
+       
+    
+}
+
+
+
+/* iPad size*/  
 @media screen and (min-width: 767px){
     
 body {
     font-size: 30px;     
 }
-
+    
+h2 {
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }    
+h3{
+        60px;
+    }    
+    
+    
+.profiltekst    {
+    font-size: 35px;
+    }
+    
+    
+.modaltekst{
+    font-size: 35px;
+    text-align: left;
+    }   
+    
+#infobutton-profile{
+    margin-top: 5px;
+    
+    }  
     
 .produkt {
-        
-        font-size: 20px;    
-    }
-    a {
-        font-size: 60px;
-    }
+    
+    font-size: 30px;
+    margin-top: 10px;
+} 
     
  
 
@@ -340,6 +531,41 @@ body {
     background-image: url(imgs/forside-ipad.png), url(imgs/backgroundexample-ipad.png);;
     background-repeat: no-repeat; 
 } 
+ 
+.top-left {
+    
+    margin-top: 3em;
+    font-size: 35px;
+}   
+    
+    
+.top-right{
+    
+    margin-top: 3em;
+    font-size: 35px;
+}
+
+    
+.bottom-left{    
+   
+    margin-bottom: 3em;
+    font-size: 35px;
+}
+
+    
+.bottom-right{   
+    
+    margin-bottom: 3em;
+    font-size: 35px;
+}    
+ 
+    
+.bestillings-tabeloversigt{
+    font-size: 40px;
+    }
+    
+.bestillings-datostatuspris{
+    font-size: 30px;}   
     
 .navbar a{
     font-size: 20px;
@@ -352,30 +578,7 @@ body {
         
     } 
 
-
-.produkt {
     
-    font-size: 30px;
-    margin-top: 10px;
-} 
-    
-.bestillings-tabeloversigt{
-    font-size: 40px;
-    }
-    
-.bestillings-datostatuspris{
-    font-size: 30px;}
-    
-h2 {
-    font-size: 70px;
-    margin-bottom: 50px;
-    }    
-h3{
-        60px;
-    }
-    a{
-        font-size: 26px;
-    }
 
 .material-icons {
     
@@ -389,12 +592,43 @@ h3{
     
 } /* ends the @media*/
 
-/* iPad size*/
+/* iPad Pro size*/
 @media screen and (min-width: 1023px){
     
 body {
     font-size: 40px;
 }
+    
+h2 {
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }    
+h3{
+        60px;
+    }    
+    
+    
+.profiltekst    {
+    font-size: 55px;
+    }
+    
+    
+.modaltekst{
+    font-size: 30px;
+    text-align: left;
+    }   
+    
+#infobutton-profile{
+    margin-top: 10px;
+    
+    }  
+    
+.produkt {
+    
+    font-size: 30px;
+    margin-top: 10px;
+}    
     
 .produkt {
     
@@ -413,29 +647,53 @@ body {
     background-repeat: no-repeat; 
 } 
 
-a {
-    font-size: 81px;
-    }
+.top-left {
     
+    margin-top: 3em;
+    font-size: 35px;
+}   
+    
+    
+.top-right{
+    
+    margin-top: 3em;
+    font-size: 35px;
+}
 
+    
+.bottom-left{    
+   
+    margin-bottom: 3em;
+    font-size: 35px;
+}
+
+    
+.bottom-right{   
+    
+    margin-bottom: 3em;
+    font-size: 35px;
+}    
+ 
+    
 .bestillings-tabeloversigt{
     font-size: 40px;
     }
     
-.Bestillingslinje{
-        font-size: 35px;
-    }    
+.bestillings-datostatuspris{
+    font-size: 30px;}     
+
+    
+    
  .navbar a{
     font-size: 30px;
 }
     
-h2 {
-    font-size: 80px;
-    
-    }
-h3{
-    font-size: 60px;        
-    }
+.produktknap {
+        
+        width: 45px;
+        height: 60px;
+        
+    } 
        
 .material-icons {
         
