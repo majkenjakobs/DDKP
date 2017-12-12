@@ -49,7 +49,7 @@ body{
 }
 
   a{
-    font-family: 'Pattaya', sans-serif;
+    font-family: 'Norican', cursive;
     color: white;
     text-decoration: none;
     font-weight: 80%;
@@ -112,9 +112,10 @@ a:hover{
         color: white;
         padding-top: 20px;
         margin-bottom: 30px;
-        font-family: 'Pattaya', sans-serif;
+        font-family: 'Norican', cursive;;
         text-decoration: none;
         letter-spacing: 2px;
+        font-weight: bold;
         
 }
 
@@ -146,7 +147,7 @@ button {
     background-color: #7e967c;
     padding: 10px 50px 10px 50px;
     font-size: 20px;
-    font-family: 'Pattaya', sans-serif; 
+    font-family: 'Norican', cursive; 
     letter-spacing: 3px;
     
 }
