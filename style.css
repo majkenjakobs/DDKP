@@ -734,7 +734,10 @@ h4 {
         
     }    
     
-   
+.kvittering{
+    
+    font-size: 30px;
+}    
        
     
 } /* ends the @media*/
@@ -767,6 +770,8 @@ h3{
     text-align: left;
     }
     
+    
+    
 .btn-default {
         
         font-size: 30px;
@@ -793,7 +798,7 @@ h3{
     
 .produkt {
     
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 10px;
 }    
 
@@ -838,11 +843,11 @@ h3{
  
     
 .bestillings-tabeloversigt{
-    font-size: 40px;
+    font-size: 45px;
     }
     
 .bestillings-datostatuspris{
-    font-size: 30px;}     
+    font-size: 40px;}     
 
     
     
@@ -852,8 +857,8 @@ h3{
     
 .produktknap {
         
-        width: 45px;
-        height: 60px;
+        width: 65px;
+        height: 80px;
         
     } 
        
@@ -899,7 +904,12 @@ h3{
     height: 95px;
     margin-bottom: 20px;
         
-    }    
+    }  
+    
+.kvittering{
+    
+    font-size: 40px;
+}    
     
 }   /* ends the @media*/
 
