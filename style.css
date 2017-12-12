@@ -258,15 +258,25 @@ body {
 } 
     
 h2 {
-    font-size: 30px;
-    margin-bottom: 35px;
+    font-size: 40px;
+    margin-bottom: 15px;
     }    
 h3{
-        40px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
     } 
     
+h4 {
+     font-size: 20px;
+     margin-bottom: 30px;
+        
+    } 
+       
+    
+    
 .profiltekst    {
-    font-size: 15px;
+    font-size: 17px;
     }    
     
 .modaltekst{
@@ -279,6 +289,20 @@ h3{
     margin-top: 0;
     
     }
+    
+.material-icons.md-36 { 
+    
+    font-size: 25px; } 
+    
+    
+    
+.logud {
+    
+    font-size: 15px;
+    width: 65px;
+    height: 35px;
+        
+    }    
       
     
 .produkt {
@@ -373,11 +397,19 @@ body {
     
 h2 {
     font-size: 45px;
-    margin-bottom: 58px;
+    margin-bottom: 20px;
     }    
 h3{
-        50px;
-    }    
+    font-size: 35px;
+    margin-bottom: 10px;
+    
+    } 
+    
+h4 {
+     font-size: 20px;
+     margin-bottom: 30px;  
+        
+    }
     
     
 .profiltekst    {
@@ -395,6 +427,18 @@ h3{
     
     }    
 
+.material-icons.md-36 { 
+    
+    font-size: 25px; } 
+    
+.logud {
+    
+    font-size: 20px;
+    width: 85px;
+    height: 55px;
+        
+    }    
+    
     
 .produkt {
     
@@ -495,7 +539,14 @@ h2 {
     margin-top: 10px;
     }    
 h3{
-        60px;
+        font-size: 50px;
+        margin-bottom: 10px;
+    } 
+    
+h4 {
+      font-size: 40px;
+      margin-bottom: 15;
+        
     }    
     
     
@@ -505,14 +556,31 @@ h3{
     
     
 .modaltekst{
-    font-size: 35px;
+    font-size: 25px;
     text-align: left;
-    }   
+    } 
+    
+.btn-default {
+        
+        font-size: 25px;
+    }     
     
 #infobutton-profile{
     margin-top: 5px;
     
-    }  
+    } 
+    
+.material-icons.md-36 { 
+    
+    font-size: 60px; } 
+    
+.logud {
+    
+    font-size: 30px;
+    width: 110px;
+    height: 75px;
+        
+    }     
     
 .produkt {
     
@@ -587,7 +655,9 @@ h3{
     
     }
     
-.material-icons.md-48 { font-size: 60px; }    
+.material-icons.md-48 { font-size: 60px; } 
+    
+   
        
     
 } /* ends the @media*/
@@ -605,7 +675,8 @@ h2 {
     margin-top: 10px;
     }    
 h3{
-        60px;
+        font-size: 60px;
+        margin-bottom: 30px; 
     }    
     
     
@@ -617,24 +688,38 @@ h3{
 .modaltekst{
     font-size: 30px;
     text-align: left;
-    }   
+    }
+    
+.btn-default {
+        
+        font-size: 30px;
+    }    
     
 #infobutton-profile{
     margin-top: 10px;
     
-    }  
+    } 
+    
+.material-icons.md-36 { 
+    
+    font-size: 60px; }     
+    
+    
+    
+.logud {
+    
+    font-size: 35px;
+    width: 135px;
+    height: 95px;
+        
+    }    
     
 .produkt {
     
     font-size: 30px;
     margin-top: 10px;
 }    
-    
-.produkt {
-    
-    font-size: 35px;        
-    } 
-    
+
   
 
 #logo {
@@ -702,7 +787,7 @@ h3{
         
     }
     
-.material-icons.md-48 { font-size: 80px; }    
+.material-icons.md-48 { font-size: 85px; }    
         
     
 }   /* ends the @media*/
