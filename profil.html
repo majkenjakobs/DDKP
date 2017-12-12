@@ -62,47 +62,20 @@
                         <p class="modaltekst">Kortnummer</p>
                         <input type="text" class="form-control" autocomplete="off" maxlength="20" pattern="\d{16}" title="Credit card number" required="">
                     </div>
-                    <div class="form-group">
-                        <p class="modaltekst">Udløbsdato</p>
-                        <div>
-                            <select class="form-control" name="cc_exp_mo">
-                                <option value="01">01</option>
-                                <option value="02">02</option>
-                                <option value="03">03</option>
-                                <option value="04">04</option>
-                                <option value="05">05</option>
-                                <option value="06">06</option>
-                                <option value="07">07</option>
-                                <option value="08">08</option>
-                                <option value="09">09</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select class="form-control" name="cc_exp_yr">
-                                <option>2016</option>
-                                <option>2017</option>
-                                <option>2018</option>
-                                <option>2019</option>
-                                <option>2020</option>
-                                <option>2021</option>
-                                <option>2022</option>
-                            </select>
-                        </div>
-                        <div>
-                            <input type="text" class="form-control" autocomplete="off" maxlength="3" pattern="\d{3}" title="Three digits at back of your card" required="" placeholder="CVC">
-                        </div>
+                     <div class="form-group">
+                        <p class="modaltekst">Udløbsdato (MM/ÅÅ)</p>
+                        <input type="text" class="form-control" autocomplete="off" maxlength="4" pattern="\d{16}" title="Udløbsdato" required="">
                     </div>
-                    <div class="formgroup">
-                        <p class="modaltekst">Antal Klip</p>
+                        
+                     <div class="form-group">
+                        <p class="modaltekst">CVC</p>
+                        <input type="text" class="form-control" autocomplete="off" maxlength="3" pattern="\d{16}" title="CVC" required="">
                     </div>
                 
                 
                     <div class="form-group row text-center">
                         <div class="container">
-                              <p>Vælg mellem 10 klip eller 20 klip:</p>
+                              <p class="vælgmellemklip">Vælg mellem 10 klip eller 20 klip:</p>
                               <form>
                                 <div class="radio">
                                   <label><input type="radio" name="optradio">10 Klip (180,-)</label>

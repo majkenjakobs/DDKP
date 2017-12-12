@@ -737,7 +737,14 @@ h4 {
 .kvittering{
     
     font-size: 30px;
-}    
+} 
+    
+.vælgmellemklip {
+    
+    font-size: 20px;
+        
+        
+    }     
        
     
 } /* ends the @media*/
@@ -880,15 +887,17 @@ h3{
     font-size: 25px;
     
         
-    }  
+    }     
     
     
 .form-control {
     
     font-size: 40px;
     height: 95px;
+     
    
 }
+      
     
 .btn-link {
         
@@ -901,7 +910,7 @@ h3{
     
     font-size: 35px;
     width: 155px;
-    height: 95px;
+    height: 55px;
     margin-bottom: 20px;
         
     }  
@@ -909,7 +918,16 @@ h3{
 .kvittering{
     
     font-size: 40px;
-}    
+} 
+    
+.vælgmellemklip {
+    
+    font-size: 30px;
+        
+        
+    }   
+    
+
     
 }   /* ends the @media*/
 
