@@ -248,11 +248,16 @@ button {
     color: #E5E4E2;
 }
 
+
 .kurv{
     
     margin-left: 1em;
     margin-top: 1em;
 }
+
+
+
+
 
 /* iPhone 5 size*/
 @media screen and (min-width: 319px){
@@ -656,7 +661,13 @@ h4 {
     font-size: 15px;
 } 
     
-    
+label{
+        
+        font-size: 17px;
+        width: 80px;
+        height: 44px;
+        margin-top: 7px;
+    }      
 
 
 
@@ -694,7 +705,7 @@ h4 {
     text-align: left;
     } 
     
-    
+   
     
 #infobutton-profile{
     margin-top: 5px;
@@ -859,6 +870,14 @@ h4 {
     font-size: 20px;
         
         
+    }  
+    
+label{
+        
+        font-size: 25px;
+        width: 80px;
+        height: 100px;
+        margin-top: 10px;
     }     
        
     
@@ -1063,7 +1082,13 @@ h3{
         
     } 
      
+   label{
         
+        font-size: 35px;
+        width: 80px;
+        height: 100px;
+        margin-top: 10px;
+    }      
 
     
 }   /* ends the @media*/
