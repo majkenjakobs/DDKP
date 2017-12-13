@@ -19,7 +19,7 @@
      <div class="overskrift">
        <i class="goback material-icons md-48" onclick="goBack()">arrow_back</i>     
         
-       <h2 class="col-11">Kurv</h2>
+       <h2 class="col-11" onclick="goBack()">Kurv</h2>
      </div>
     <div class="kurv profiltekst">    
         
@@ -133,8 +133,12 @@
         
         
     </div>
-        
-        
+      
+        <script>
+         function goBack() {
+    window.history.back();
+        }
+        </script>
 
         <div class="navbar fixed-bottom">
             <a href="profil.html" class="col-2">Profil</a>

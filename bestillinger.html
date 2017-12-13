@@ -18,9 +18,9 @@
     <body> 
 
        <div class="overskrift">
-    <i class="goback material-icons md-48 col-1" onclick="goBack()">arrow_back</i>     
+    <i class="goback material-icons md-48" onclick="goBack()">arrow_back</i>     
         
-     <h2 class="col-12 text-center">Bestillinger</h2>
+     <h2 class="col-11 text-center"  onclick="goBack()">Bestillinger</h2>
         
     </div>
         
@@ -340,7 +340,11 @@
 
 </div>
 
-        
+         <script>
+         function goBack() {
+    window.history.back();
+        }
+        </script>  
         
         
         
