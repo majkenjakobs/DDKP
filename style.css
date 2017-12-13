@@ -6,6 +6,12 @@
     bottom: 0;
     width: 100%;
     font-family: PT serif;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: em;
+    padding-right: em;
+    
+    
 }
 
 
@@ -17,8 +23,7 @@
     text-align: center;
     padding: 7px 8px;
     text-decoration: none; 
-    font-family: PT serif;
-    font-style: italic;
+    font-family: 'Avenir';
 }
 
 /* Add a color to the active/current link */
@@ -33,8 +38,6 @@ body{
 }
 
 .forside{
-    background-image: url(imgs/forside.png);
-      
 /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
   
