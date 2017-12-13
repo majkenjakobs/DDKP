@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Kurv</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bs/css/bootstrap.min.css">
@@ -66,8 +66,8 @@
         
     <div class="row justify-content-center">
      
-         <div class="col-12 text-center">
-                    <button type="button" class="btn-default"><i data-toggle="modal" data-target="#order1">Gå til betaling</i></button>
+         <div class="centrerknap">
+                    <button type="button" class="btn-default" data-toggle="modal" data-target="#order1">Gå til betaling</button>
                   <div class="modal fade" id="order1" role="dialog">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -94,27 +94,25 @@
                                         <td class="samletkvitpris">60,-</td>
                                       </tr>
                                     <tr>
-                                        <td></td>
-                                        <td></td>
+                                       
                                         
-                                        <td class="ialtkvitpris">I alt: 140,-</td>
+                                        <td colspan="3" align="right" class="ialtkvitpris">I alt: 140,-</td>
                                         
                                     </tr>
-                                    <p></p>
+                            
                                     <tr>
                                         <td colspan="2">Valgt betalingsmetode:</td>
                                         
                                         <td class="samletkvitpris">Visa **12</td>
-                                        <td></td>
-                                    
+                                        
                                        <tr>
                                        
                        
                                             
                                                 
-               <td align="center"> <label class="radioknap"><input type="radio" name="optradio" checked="checked"><br>Betal med betalingskort</label></td> 
+               <td align="center"><label class="radioknap"><input type="radio" name="optradio" checked="checked"><br>Betal med betalingskort</label></td> 
                                            
-              <td align="center">  <label class="radioknap"><input type="radio" name="optradio"><br>Betal med MobilePay</label></td>
+              <td align="center"><label class="radioknap"><input type="radio" name="optradio"><br>Betal med MobilePay</label></td>
                                        
               <td align="center"> <label class="radioknap"><input type="radio" name="optradio"><br>Betal med klippekort</label></td>  
                                            
@@ -149,7 +147,7 @@
         <div class="navbar fixed-bottom">
             <a href="profil.html" class="col-2">Profil</a>
             <a href="produkter.html" class="col-2">Produkter</a>
-            <a href="forside.html" class="col-4" ><img id="logo" src="imgs/forside.png"> </a>
+            <a href="forside.html" class="col-4" ><img id="logo" src="imgs/forside.png" alt="Logo"> </a>
             <a href="kurv.html" class="active col-2">Kurv</a>
             <a href="bestillinger.html" class=" col-2">Mine Bestillinger</a>
             

@@ -8,13 +8,12 @@
     font-family: PT serif;
     padding-bottom: 0;
     padding-top: 0;
-    padding-left: em;
-    padding-right: em;
-    
-    
+       
 }
 
-
+.centrerknap{
+    text-align: center;  
+}
 /* Style the links inside the navigation bar */
 .navbar a {
     float: left;
@@ -25,6 +24,7 @@
     text-decoration: none; 
     font-family: 'Avenir';
 }
+
 
 /* Add a color to the active/current link */
 .navbar a.active {
@@ -56,8 +56,8 @@ body{
     color: #ffffff;
     text-decoration: none;
 }    
-    a:active{
-    color:#E5E4E2;
+    a:active {
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -259,6 +259,7 @@ button {
 
 
 
+
 /* iPhone 5 size*/
 @media screen and (min-width: 319px){
 
@@ -307,9 +308,9 @@ h4 {
 .btn-default {
     
     font-size: 17px;
-    width: 165px;
-    height: 65px;
-    margin-top: 10px;
+    width: inherit;
+    height: inherit;
+    margin-top: 30px;
         
     }  
     
@@ -329,7 +330,7 @@ h4 {
 }
 
 .forside {
-    background-image: url(imgs/forside-iphone.png), url(imgs/Humlenstemningsbaggrund-iphone.png);
+    background-image: url(imgs/forside-iphone.png), url(imgs/Humlenstemningsbaggrund-iphone.PNG);
     background-repeat: no-repeat;
     
 
@@ -413,8 +414,8 @@ h4 {
 .logind {
     
     font-size: 20px;
-    width: 220px;
-    height: 70px;
+    width: inherit;
+    height: inherit;
     margin-top: 10px;
     margin-bottom: 30px;
     
@@ -486,10 +487,10 @@ h4 {
     
 .btn-default {
     
-    font-size: 12px;
-    width: 145px;
-    height: 50px;
-    margin-top: 5px;
+    font-size: 19px;
+    width: inherit;
+    height: inherit;
+    margin-top: 30px;
         
     } 
     
@@ -510,7 +511,7 @@ h4 {
 }
     
 .forside {
-    background-image: url(imgs/forside-iphone.png), url(imgs/Humlenstemningsbaggrund-iphone.png);;
+    background-image: url(imgs/forside-iphone.png), url(imgs/Humlenstemningsbaggrund-iphone.PNG);;
     background-repeat: no-repeat; 
 } 
     
@@ -594,7 +595,7 @@ h4 {
     }    
        
     
-}
+
 
     
 #login{
@@ -607,8 +608,8 @@ h4 {
 .logind {
     
     font-size: 15px;
-    width: 155px;
-    height: 55px;
+    width: inherit;
+    height: inherit;
     margin-top: 10px;
     margin-bottom: 20px;
     
@@ -643,7 +644,7 @@ label{
         margin-top: 7px;
     }      
 
-
+}
 
 /* iPad size*/  
 @media screen and (min-width: 767px){
@@ -664,7 +665,7 @@ h3{
     
 h4 {
       font-size: 40px;
-      margin-bottom: 15;
+      margin-bottom: 15px;
         
     }    
     
@@ -696,9 +697,9 @@ h4 {
 .btn-default  {
     
     font-size: 30px;
-    width: 290px;
-    height: 110px;
-    margin-top: 20px;
+    width: inherit;
+    height: inherit;
+    margin-top: 40px;
         
     } 
     
@@ -798,8 +799,8 @@ h4 {
 .logind {
     
       font-size: 25px;
-    width: 220px;
-    height: 70px;
+    width: inherit;
+    height: inherit;
     margin-top: 10px;
     margin-bottom: 30px;
     
@@ -888,8 +889,9 @@ h3{
 .btn-default {
     
     font-size: 35px;
-    width: 350px;
-    height: 130px;
+    width: inherit;
+    height: inherit;
+    margin-top: 50px;
         
     }
     
@@ -993,8 +995,8 @@ h3{
 .logind {
     
       font-size: 35px;
-    width: 250px;
-    height: 90px;
+    width: inherit;
+    height: inherit;
     margin-top: 10px;
     margin-bottom: 30px;
     
