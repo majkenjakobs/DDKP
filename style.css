@@ -304,11 +304,12 @@ h4 {
     
     
     
-.logud {
+.btn-default {
     
-    font-size: 15px;
-    width: 150px;
+    font-size: 12px;
+    width: 165px;
     height: 65px;
+    margin-top: 10px;
         
     }  
     
@@ -435,14 +436,6 @@ h4 {
 }
     
 
-
-.btn {
-    
-     font-size: 25px;
-    width: 80px;
-    height: 55px;
-        
-        } 
     
     label{
         
@@ -498,11 +491,12 @@ h4 {
     display: inline-block;
     } 
     
-.logud {
+.btn-default {
     
-    font-size: 25px;
-    width: 180px;
-    height: 75px;
+    font-size: 12px;
+    width: 145px;
+    height: 50px;
+    margin-top: 5px;
         
     } 
     
@@ -648,13 +642,7 @@ h4 {
         
     } 
 
-.btn {
-    
-     font-size: 25px;
-    width: 80px;
-    height: 55px;
-        
-        }
+
 
 .kvittering{
     
@@ -719,11 +707,12 @@ h4 {
     
     } 
     
-.logud {
+.btn-default  {
     
-    font-size: 35px;
-    width: 230px;
-    height: 120px;
+    font-size: 30px;
+    width: 290px;
+    height: 110px;
+    margin-top: 20px;
         
     } 
     
@@ -850,13 +839,7 @@ h4 {
         
     } 
     
-.btn {
-    
-     font-size: 35px;
-    width: 115px;
-    height: 66px;
-        
-        }     
+     
     
        
     
@@ -923,11 +906,11 @@ h3{
     
     
     
-.logud {
+.btn-default {
     
-    font-size: 45px;
-    width: 260px;
-    height: 150px;
+    font-size: 35px;
+    width: 350px;
+    height: 130px;
         
     }
     
@@ -1060,15 +1043,7 @@ h3{
     font-size: 30px;
         
     } 
-    
-.btn {
-    
-     font-size: 45px;
-    width: 130px;
-    height: 95px;
         
-        }   
-    
  
     
 .kvittering{
