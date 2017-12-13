@@ -16,12 +16,125 @@
     </head>
 
     <body> 
-         <div class="overskrift">
-    <i class="goback material-icons md-48" onclick="goBack()">arrow_back</i>     
+     <div class="overskrift">
+       <i class="goback material-icons md-48" onclick="goBack()">arrow_back</i>     
         
-     <h2 class="col-11">Kurv</h2>
+       <h2 class="col-11">Kurv</h2>
+     </div>
+    <div class="kurv profiltekst">    
+        
+    <div class="dinbestilling">Din bestilling</div>   
+        
+    <br>    
+        
+    <div class="row kurvtuborg">
+            
+        <div class="col-4">Tuborg</div>
+        <div class="col-4">x2</div>
+        <div class="col-4">40,-</div>    
         
     </div>
+        
+    <div class="row kurvsomersby">
+            
+        <div class="col-4">Somersby</div>
+        <div class="col-4">x3</div>
+        <div class="col-4">40,-</div>    
+        
+    </div>    
+        
+    <div class="row kurvshiraz">
+            
+        <div class="col-4">Shiraz</div>
+        <div class="col-4">x3</div>
+        <div class="col-4">60,-</div>    
+        
+    </div> 
+        
+        <br>
+        <br>
+        
+        
+     <div class="row total text-center">
+            
+        <div class="col-6">Total</div>
+        <div class="col-6 right">140,-</div>    
+        
+    </div>  
+        
+    </div>    
+        
+    <div class="row">
+     
+         <div class="col-12 text-center">
+                    <button type="button" class="btn btn-default betal"><i data-toggle="modal" data-target="#order1">Gå til betaling</i></button>
+                  <div class="modal fade" id="order1" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Din ordre</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p class="modaltekst">Din ordre er modtaget! <br> Tjek status under "Mine Bestillinger"</p>
+                                <table class="kvittering">
+                                      <tr>
+                                        <td>Tuborg</td>
+                                        <td>x 2</td>
+                                        <td class="samletkvitpris">40,-</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Somersby</td>
+                                        <td>x 3</td>
+                                        <td class="samletkvitpris">40,-</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Chiraz</td>
+                                        <td>x 3</td>
+                                        <td class="samletkvitpris">60,-</td>
+                                      </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td class="ialtkvitpris">I alt: 140,-</td>
+                                    </tr>
+                                    <p></p>
+                                    <tr>
+                                        <td>Valgt betalingsmetode:</td>
+                                        <td></td>
+                                        <td class="samletkvitpris">Visa **12</td>
+                                        <td></td>
+                                    
+                                       <tr>
+                                        <td></td>
+                                           
+                                           
+                                        <td><label><input type="radio" name="optradio">Betal med klippekort</label></td>
+                                        
+                                        <td><label><input type="radio" name="optradio">Betal med MobilePay</label></td>   
+                                       
+                                          
+                                        
+                                    </tr>
+                                    
+                                </table>
+                                
+                                
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Betal</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+        
+        
+        
+    </div>
+        
+        
 
         <div class="navbar fixed-bottom">
             <a href="profil.html" class="col-2">Profil</a>

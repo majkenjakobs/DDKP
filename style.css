@@ -241,22 +241,20 @@ button {
 /* CSS - Bestillinger end*/
 
 
-
 #counterField {
     
     color: #E5E4E2;
 }
 
-
+.kurv{
+    
+    margin-left: 1em;
+    margin-top: 1em;
+}
 
 /* iPhone 5 size*/
 @media screen and (min-width: 319px){
 
-
-    
-body {
-    font-size: 20px;     
-} 
     
 h2 {
     font-size: 40px;
@@ -305,7 +303,16 @@ h4 {
     width: 65px;
     height: 35px;
         
-    }    
+    }  
+    
+.betal {
+    
+    font-size: 20px;
+    width: 130px;
+    height: 65px;
+    margin-top: 15px;
+        
+    }     
       
     
 .produkt {
@@ -375,7 +382,9 @@ h4 {
         width: 30px;
         height: 40px;
         
-    }    
+    }  
+    
+    
 
 .material-icons {
         
@@ -407,11 +416,6 @@ h4 {
 /* iPhone 6 size*/
 @media screen and (min-width: 374px){
     
-    
-    
-body {
-    font-size: 30px;     
-}
     
 h2 {
     font-size: 45px;
@@ -457,7 +461,16 @@ h4 {
     width: 85px;
     height: 55px;
         
-    }    
+    } 
+    
+.betal {
+    
+    font-size: 25px;
+    width: 175px;
+    height: 80px;
+    margin-top: 25px;
+        
+    }     
     
     
 .produkt {
@@ -527,6 +540,7 @@ h4 {
         width: 35px;
         height: 45px;
         
+        
     } 
     
    
@@ -580,14 +594,7 @@ h4 {
     } 
     
     
-.btn-default {
-    
-    font-size: 25px;
-    width: 95px;
-    height: 45px;
-    margin-bottom: 20px;
-        
-    } 
+
 
 
 /* iPad size*/  
@@ -624,10 +631,7 @@ h4 {
     text-align: left;
     } 
     
-.btn-default {
-        
-        font-size: 25px;
-    }     
+    
     
 #infobutton-profile{
     margin-top: 5px;
@@ -647,7 +651,16 @@ h4 {
     width: 110px;
     height: 75px;
         
-    }     
+    }
+    
+.betal {
+    
+    font-size: 45px;
+    width: 280px;
+    height: 120px;
+    margin-top: 45px;
+        
+    }      
     
 .produkt {
     
@@ -710,6 +723,7 @@ h4 {
         
         width: 45px;
         height: 60px;
+        font-size: 35px;
         
     } 
 
@@ -752,15 +766,7 @@ h4 {
         
     } 
     
-    
-.btn-default {
-    
-    font-size: 35px;
-    width: 155px;
-    height: 75px;
-    margin-bottom: 20px;
-        
-    }    
+       
     
 .kvittering{
     
@@ -780,13 +786,10 @@ h4 {
 /* iPad Pro size*/
 @media screen and (min-width: 1023px){
     
-body {
-    font-size: 40px;
-}
     
 h2 {
-    font-size: 70px;
-    margin-bottom: 20px;
+    font-size: 95px;
+    margin-bottom: 50px;
     margin-top: 10px;
     }    
 h3{
@@ -805,12 +808,7 @@ h3{
     text-align: left;
     }
     
-    
-    
-.btn-default {
         
-        font-size: 30px;
-    }    
     
 #infobutton-profile{
     margin-top: 10px;
@@ -831,7 +829,16 @@ h3{
     width: 135px;
     height: 95px;
         
-    }    
+    } 
+    
+.betal {
+    
+    font-size: 55px;
+    width: 330px;
+    height: 160px;
+    margin-top: 55px;
+        
+    }     
     
 .produkt {
     
@@ -896,6 +903,7 @@ h3{
         
         width: 65px;
         height: 80px;
+        font-size: 45px;
         
     } 
        
@@ -943,15 +951,7 @@ h3{
         
     } 
     
-    
-.btn-default {
-    
-    font-size: 35px;
-    width: 155px;
-    height: 55px;
-    margin-bottom: 20px;
-        
-    }  
+ 
     
 .kvittering{
     
@@ -962,9 +962,9 @@ h3{
     
     font-size: 30px;
         
+    } 
+     
         
-    }   
-    
 
     
 }   /* ends the @media*/
