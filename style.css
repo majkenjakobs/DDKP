@@ -151,6 +151,7 @@ button {
     border: 1px;
     border-color: #ffffff;
     
+    
 }
 
 
@@ -260,6 +261,7 @@ button {
 h2 {
     font-size: 40px;
     margin-bottom: 15px;
+    z-index: -1;
     }    
 h3{
     font-size: 25px;
@@ -308,12 +310,12 @@ h4 {
     
 .betal {
     
-    font-size: 20px;
-    width: 150px;
-    height: 85px;
-    margin-top: 15px;
+    font-size: 15px;
+    width: 160px;
+    height: 60px;
+    margin-top: 25px;
         
-    }     
+    }      
       
     
 .produkt {
@@ -494,9 +496,9 @@ h4 {
     
 .betal {
     
-    font-size: 25px;
-    width: 165px;
-    height: 90px;
+    font-size: 17px;
+    width: 160px;
+    height: 65px;
     margin-top: 25px;
         
     }     
@@ -709,10 +711,10 @@ h4 {
     
 .betal {
     
-    font-size: 45px;
+    font-size: 30px;
     width: 280px;
-    height: 150px;
-    margin-top: 45px;
+    height: 110px;
+    margin-top: 25px;
         
     }      
     
@@ -905,10 +907,10 @@ h3{
     
 .betal {
     
-    font-size: 55px;
-    width: 330px;
-    height: 180px;
-    margin-top: 55px;
+  font-size: 40px;
+    width: 350px;
+    height: 150px;
+    margin-top: 25px;
         
     }     
     
